@@ -82,7 +82,7 @@ buttons.forEach(button => {
         // Resalta la intersección con un color distinto
         const intersectionCell = rows[paintedRowIndex].cells[paintedColIndex];
         if (intersectionCell) {
-            intersectionCell.style.border = '2px solid white';
+            intersectionCell.style.border = '6px solid white';
         }
         
 

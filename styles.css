@@ -1,10 +1,22 @@
 :root{
-    --primary-color:#007198; 
+    --primary-color:#d16200; 
     --secondary-color: #2083A5;
     --third-color: #f2efe4;
     --emphasis-color: #4094B2;
     --background-color:#ffffff;
-    --general-font-color: rgb(224, 224, 224);
+    --general-font-color: rgb(222, 222, 222);
+
+    /* Particular colors */
+    --button-uno-color: #922B21; 
+    --button-dos-color: #76448A;
+    --button-tres-color: #5B2C6F;
+    --button-cuatro-color: #1F618D  ;
+    --button-cinco-color: #2874A6;
+    --button-seis-color: #148F77;
+    --button-siete-color: #1E8449;
+    --button-ocho-color: #239B56;
+    --button-nueve-color: #B7950B;
+    --button-diez-color: #A04000;
 }
 
 *{
@@ -23,16 +35,18 @@ body{
 
 h1 {
     margin: 2% auto;
-    font-family:sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: 'Fredoka One', sans-serif;  
     color: var(--primary-color); 
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
+    -webkit-text-stroke: 1px var(--general-font-color);
 
 }
 
 table {
     background-color: var(--third-color);
     font-size: 40px;
+    border-radius: 20px; 
     border-collapse: collapse;
     margin: 2% auto;
 }
@@ -53,13 +67,47 @@ th, td {
     font-size: 40px; 
     font-weight: bold; 
     cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
 }
+
 
 .numberButton:hover{
     background-color: var(--emphasis-color);
+    scale: 1.3; 
 }
 
 footer {
     margin: 1% 3%;
     color: var(--general-font-color);
+}
+
+.one {
+    background-color: var(--button-uno-color);
+}
+.two {
+    background-color: var(--button-dos-color);
+}
+.three {
+    background-color: var(--button-tres-color);
+}
+.four {
+    background-color: var(--button-cuatro-color);
+}
+.five {
+    background-color: var(--button-cinco-color);
+}
+.six {
+    background-color: var(--button-seis-color);
+}
+.seven {
+    background-color: var(--button-siete-color);
+}
+.eight {
+    background-color: var(--button-ocho-color);
+}
+.nine {
+    background-color: var(--button-nueve-color);
+}
+.ten {
+    background-color: var(--button-diez-color);
 }
