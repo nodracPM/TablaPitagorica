@@ -1,10 +1,10 @@
 :root{
-    --primary-color:#d16200; 
+    --primary-color:#f8c809; 
     --secondary-color: #2083A5;
-    --third-color: #f2efe4;
+    --third-color: #eae4f2;
     --emphasis-color: #4094B2;
     --background-color:#ffffff;
-    --general-font-color: rgb(222, 222, 222);
+    --general-font-color: rgb(255, 255, 255);
 
     /* Particular colors */
     --button-uno-color: #922B21; 
@@ -39,8 +39,7 @@ h1 {
     color: var(--primary-color); 
     font-size: 60px;
     text-align: center;
-    -webkit-text-stroke: 1px var(--general-font-color);
-
+    -webkit-text-stroke: 1px #520f58;
 }
 
 table {
@@ -63,7 +62,7 @@ th, td {
     border-radius: 20%;
     border: none; 
     background-color: var(--secondary-color);
-    color: white; 
+    color: var(--general-font-color); 
     font-size: 40px; 
     font-weight: bold; 
     cursor: pointer; 
